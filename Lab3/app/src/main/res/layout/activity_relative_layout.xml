@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Slide 10. Every child is placed relative to the parent or to another view through its id. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity">
+
+    <!-- Top edge and start edge match the parent -->
+    <TextView
+        android:id="@+id/lblComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:labelFor="@+id/txtComments"
+        android:text="@string/comments" />
+
+    <!-- Below the label, starts where the label starts, centred in the parent -->
+    <EditText
+        android:id="@+id/txtComments"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/lblComments"
+        android:layout_alignStart="@id/lblComments"
+        android:layout_centerHorizontal="true"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textSize="18sp" />
+
+    <!-- Below the comments box, end edge lines up with the box's end edge -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtComments"
+        android:layout_alignEnd="@id/txtComments"
+        android:text="@string/save" />
+
+    <!-- Below the comments box, start edge lines up with the box's start edge -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtComments"
+        android:layout_alignStart="@id/txtComments"
+        android:text="@string/cancel" />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <!-- Material 3 with an action bar, so every screen shows its title like the screenshots in the slides -->
+    <style name="Theme.Lab3UserInterface" parent="Theme.Material3.DayNight" />
+</resources>

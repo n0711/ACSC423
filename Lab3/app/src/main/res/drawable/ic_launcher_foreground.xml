@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The three weighted buttons from slide 8 (weights 1, 2 and 3, gravity left, center and right) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,33 H47 A2,2 0 0 1 49,35 V38 A2,2 0 0 1 47,40 H35 A2,2 0 0 1 33,38 V35 A2,2 0 0 1 35,33 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,41 H60 A2,2 0 0 1 62,43 V53 A2,2 0 0 1 60,55 H48 A2,2 0 0 1 46,53 V43 A2,2 0 0 1 48,41 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61,56 H73 A2,2 0 0 1 75,58 V75 A2,2 0 0 1 73,77 H61 A2,2 0 0 1 59,75 V58 A2,2 0 0 1 61,56 Z" />
+</vector>

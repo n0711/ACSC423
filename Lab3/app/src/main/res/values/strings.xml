@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Lab 3 User Interface</string>
+    <string name="home_intro">Every button opens one of the layouts from the Lab 3 slides.</string>
+
+    <!-- Screen titles, also used on the home screen buttons -->
+    <string name="title_linear_layout">LinearLayout</string>
+    <string name="title_weight_gravity">Layout weight &amp; gravity</string>
+    <string name="title_nested_linear_layout">Nested LinearLayout</string>
+    <string name="title_relative_layout">RelativeLayout</string>
+    <string name="title_constraint_layout">ConstraintLayout</string>
+
+    <!-- LinearLayout (slide 4) -->
+    <string name="hello">Hello World!</string>
+
+    <!-- Layout weight and gravity (slide 7) -->
+    <string name="button">Button</string>
+
+    <!-- Nested LinearLayout (slide 8) -->
+    <string name="text_1">Text 1</string>
+    <string name="text_2">Text 2</string>
+    <string name="text_3">Text 3</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_3">Button 3</string>
+
+    <!-- RelativeLayout (slide 10) -->
+    <string name="comments">Comments</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- ConstraintLayout (slides 13 to 15) -->
+    <string name="text_view">TextView</string>
+    <string name="name">Name</string>
+    <string name="wrap_content">Wrap content</string>
+    <string name="any_size">Any size (0dp)</string>
+    <string name="fixed_size">Fixed size (200dp)</string>
+</resources>
