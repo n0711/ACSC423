@@ -1,0 +1,4 @@
+<resources>
+    <!-- No action bar, the screens in the slide have none -->
+    <style name="Theme.Lab4Ex1" parent="Theme.Material3.Light.NoActionBar" />
+</resources>

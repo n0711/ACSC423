@@ -1,0 +1,6 @@
+<resources>
+    <color name="ic_launcher_background">#6200EE</color>
+    <!-- Purple of the SUBMIT button in the slide -->
+    <color name="submit_purple">#6200EE</color>
+    <color name="hint_grey">#8A8A8A</color>
+</resources>
