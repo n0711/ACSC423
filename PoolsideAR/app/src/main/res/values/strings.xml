@@ -1,0 +1,31 @@
+<resources>
+ <string name="app_name">Poolside AR</string>
+ <string name="title">POOLSIDE</string>
+ <string name="subtitle">SPORT IN A NEW DIMENSION</string>
+ <string name="simulation">SIMULATED REPLAY &#8226; OFFLINE DATA</string>
+ <string name="water_polo">Water polo</string><string name="swimming">Swimming</string>
+ <string name="play">Play</string><string name="pause">Pause</string><string name="restart">Restart</string>
+ <string name="find_ball">Find ball</string><string name="enter_guess">Enter guess</string>
+ <string name="open_ar">View in AR</string><string name="preview">2D preview</string>
+ <string name="reset_placement">Place again</string><string name="help">Help</string>
+ <string name="timeline">Replay position</string><string name="scale">Table length</string>
+ <string name="scale_value">Table length: %1$.2f m</string>
+ <string name="time_value">%1$.1f / %2$.1f s</string>
+ <string name="stats">Visible: %1$d &#8226; Pool: %2$.0f &#215; %3$.0f m</string>
+ <string name="preview_status">Explore the replay. Use AR to place the pool on a table.</string>
+ <string name="challenge_hint">Ball hidden. Tap its remembered location or enter a guess.</string>
+ <string name="legend_polo">R: Red team    B: Blue team    Yellow: Ball</string>
+ <string name="legend_swimming">1&#8211;8: Swimmers in their lanes</string>
+ <string name="help_body">Explore simulated water-polo and swimming positions. Drag the timeline, change playback speed, or pause to inspect a frame.\n\nFind ball pauses water polo and hides the ball. Tap its remembered position or enter pool coordinates. A guess within 2 m counts as found.\n\nAR: allow the camera, scan a textured table in good light, then tap a detected surface. Walk around the pool or choose Place again. Preview works without camera permission or ARCore.\n\nData is synthetic, not a live match or automatic swimmer tracking. Camera frames are not uploaded by this app. AR uses Google Play Services for AR; its privacy information is available below.</string>
+ <string name="privacy">AR privacy</string><string name="close">Close</string><string name="cancel">Cancel</string>
+ <string name="guess_title">Guess the ball position</string><string name="guess_x">Length coordinate x (metres)</string><string name="guess_z">Width coordinate z (metres)</string><string name="guess_submit">Check guess</string>
+ <string name="guess_result">%1$s: %2$.2f m away. Play to continue.</string>
+ <string name="found">Found!</string><string name="missed">Try another round</string>
+ <string name="camera_denied">Camera access was declined. The preview remains available.</string>
+ <string name="camera_settings">Enable camera in Settings to use AR. Preview needs no permission.</string>
+ <string name="settings">Settings</string><string name="checking_ar">Checking AR support&#8230;</string>
+ <string name="ar_unavailable">AR is unavailable here. You can use all replay controls in preview.</string>
+ <string name="ar_error">AR could not start. Return to preview and retry after checking Google Play Services for AR.</string>
+ <string name="data_error">Replay data could not be loaded. Reinstall the app to restore the bundled fixtures.</string>
+ <string name="preview_description">Pool replay. Red players are labelled R, blue players B, and swimmers by lane. Use Enter guess for an accessible ball challenge.</string>
+</resources>

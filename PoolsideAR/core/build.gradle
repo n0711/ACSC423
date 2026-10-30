@@ -1,0 +1,12 @@
+plugins { id 'java-library'; id 'jacoco' }
+java { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
+dependencies { testImplementation 'junit:junit:4.13.2' }
+test { finalizedBy jacocoTestReport }
+jacocoTestReport { dependsOn test; reports { xml.required = true; html.required = true } }
+
+sourceSets { benchmark { compileClasspath += sourceSets.main.output; runtimeClasspath += sourceSets.main.output } }
+tasks.register('benchmark', JavaExec) {
+ dependsOn benchmarkClasses
+ classpath = sourceSets.benchmark.runtimeClasspath
+ mainClass = 'edu.frederick.poolar.core.SamplingBenchmark'
+}

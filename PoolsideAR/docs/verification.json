@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-30",
+  "platform": "Windows, JDK 17, Android API 35 x86_64 emulator",
+  "unitTests": {
+    "tests": 48,
+    "failures": 0,
+    "errors": 0
+  },
+  "instrumentedTests": {
+    "tests": 11,
+    "failures": 0,
+    "errors": 0
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 7,
+    "warningScope": "Pinned dependency/tool versions and retained target SDK 35"
+  },
+  "coreCoverage": {
+    "lines": {
+      "covered": 322,
+      "missed": 15
+    },
+    "branches": {
+      "covered": 187,
+      "missed": 35
+    },
+    "instructions": {
+      "covered": 2320,
+      "missed": 80
+    }
+  },
+  "apk": {
+    "version": "1.0.0",
+    "applicationId": "edu.frederick.poolar.dev",
+    "bytes": 1024209,
+    "sha256": "cb44450ad742f019376ad9e26d255b9463e58c2362b4afb829438550188966b7",
+    "signatureVerified": true
+  },
+  "physicalArTrackingVerified": false
+}
